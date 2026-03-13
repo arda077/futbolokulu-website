@@ -1136,3 +1136,46 @@ text-decoration:none;
 .social-icons a:hover{
 color:#18c1cc;
 }
+@media (max-width: 992px){
+
+.nav-container{
+flex-direction: column;
+}
+
+.nav-links{
+flex-direction: column;
+gap:15px;
+text-align:center;
+}
+
+.slider-text h1{
+font-size:40px;
+}
+
+.slider-text h2{
+font-size:22px;
+}
+
+}
+
+@media (max-width: 600px){
+
+.slider-text h1{
+font-size:30px;
+}
+
+.slider-text h2{
+font-size:18px;
+}
+
+.footer-top{
+flex-direction: column;
+text-align:center;
+gap:30px;
+}
+
+.social-icons{
+justify-content:center;
+}
+
+}
